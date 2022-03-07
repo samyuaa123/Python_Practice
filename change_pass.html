@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTER</title>
+</head>
+<body>
+<form action="#" method="post" class="center">
+    <p>USERNAME:</p>
+    <p><input type='text', name='name' value="{{request.form['name']}}"></p>
+    <p>OLD PASSWORD:</p>
+    <p><input type='password', name='name' VALUE="{{request.form['old_pass']}}"></p>
+    <p>NEW Password:</p>
+    <p><input type='password', name='new_pass' value="{{request.form['new_pass']}}"></p>
+    <p>CONFIRM Password:</p>
+    <p><input type='password', name='cnf_pass' value="{{request.form['cnf_pass']}}"></p>
+<p><input type='submit', name='submit'></p>
+</form>
+</body>
+</html>

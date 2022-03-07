@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+  <tr>
+    <th>USER</th>
+    <th>Password</th>
+  </tr>
+  {% for x in data %}
+    <tr>
+      <td>{{x[0]}}</td>
+      <td>{{x[1]}}</td>
+    </tr>
+  {% endfor %}
+</table>
+</body>
+</html>
